@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blu Giraffe Sarona — Home Away From Home</title>
+  <meta name="description" content="Boutique self-catering apartment at Sarona City Mall, Tsholofelo East. Premium stays from P750/night." />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Cormorant Garamond (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- =============================================
+       STICKY NAVIGATION
+  ============================================= -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#hero" class="navbar__logo">
+        <img src="asserts/images/GoabaHouseLogo (1).svg" alt="Blu Giraffe Logo" class="navbar__giraffe">
+        <span class="navbar__name">Blu Giraffe <em>Sarona</em></span>
+    </a>
+      <button class="navbar__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#amenities">Amenities</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="https://wa.me/26771794671" class="navbar__cta" target="_blank" rel="noopener">
+            Book Now
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- =============================================
+       HERO SECTION — Full-screen video
+  ============================================= -->
+  <section class="hero" id="hero">
+    <!-- Replace src with your actual video path -->
+    <video class="hero__video" autoplay muted loop playsinline poster="assets/images/hero-poster.jpg">
+      <source src="asserts/Video/Goabe House Video.mp4" type="video/mp4" />
+    </video>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <!-- Logo mark -->
+    <div class="hero__logo-wrap">
+        <img src="asserts/images/GoabaHouseLogo (1).svg" alt="Blu Giraffe Logo" class="hero__giraffe-icon">
+
+        <div class="hero__brand">
+        <span class="hero__brand-main">Blu Giraffe</span>
+        <span class="hero__brand-sub">SARONA</span>
+        </div>
+    </div>
+      <h1 class="hero__heading">Home Away<br /><em>From Home</em></h1>
+      <p class="hero__sub">A boutique self-catering sanctuary steps from Sarona City Mall — crafted for travellers who expect more.</p>
+      <div class="hero__ctas">
+        <a href="https://wa.me/26771794671" class="btn btn--whatsapp" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          WhatsApp Us
+        </a>
+        <a href="tel:+26771794671" class="btn btn--call">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 13.54 19.79 19.79 0 01.0 4.91a2 2 0 012-2.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 10.09a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Call to Book
+        </a>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll-hint" aria-label="Scroll down">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- =============================================
+       ABOUT SECTION
+  ============================================= -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__text reveal">
+        <span class="section-label">Welcome to Blu Giraffe Sarona</span>
+        <h2 class="about__heading">Comfort, convenience,<br />and care — everything<br />you need in one place.</h2>
+        <p>Experience the pinnacle of boutique living at Sarona City Mall, Tsholofelo East. Our clean, cosy, and fully equipped self-catering apartment is meticulously designed for both business and leisure travellers seeking a professional yet warm urban sanctuary.</p>
+        <div class="about__location">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>5-minute walk to Sarona City Mall</span>
+        </div>
+      </div>
+      <div class="about__visual reveal">
+        <div class="about__img-frame">
+          <img src="asserts/images/livingHero.jpeg" alt="Spacious Living Area with Designer Décor" loading="lazy" />
+          <div class="about__img-caption">Spacious Living Area with Designer Décor</div>
+        </div>
+        <div class="about__stat-badge">
+          <span class="about__stat-num">P750</span>
+          <span class="about__stat-label">per night</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       IMAGE GALLERY / SLIDER
+  ============================================= -->
+  <section class="gallery" id="gallery">
+    <div class="container gallery__header reveal">
+      <span class="section-label">Inside the Apartment</span>
+      <h2>A Space Designed <em>for You</em></h2>
+    </div>
+    <div class="slider" id="slider" aria-label="Apartment gallery">
+      <div class="slider__track" id="sliderTrack">
+        <!-- Slide 1 -->
+        <div class="slider__slide" data-index="0">
+          <img src="asserts/images/BedRoom.jpeg" alt="Modern Bedroom" loading="lazy" />
+          <div class="slider__caption">
+            <h3>Modern Bedroom</h3>
+            <p>Plush bedding & serene ambience for perfect rest</p>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="slider__slide" data-index="1">
+          <img src="asserts/images/Kitchen.jpeg" alt="Fully Equipped Kitchen" loading="lazy" />
+          <div class="slider__caption">
+            <h3>Fully Equipped Kitchen</h3>
+            <p>Everything you need for home-cooked meals</p>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="slider__slide" data-index="2">
+          <img src="asserts/images/LivingRoom.jpeg" alt="Designer Living Room" loading="lazy" />
+          <div class="slider__caption">
+            <h3>Living Room</h3>
+            <p>Refined interiors with a warm, welcoming atmosphere</p>
+          </div>
+        </div>
+        
+          ADD MORE SLIDES HERE:
+          <div class="slider__slide" data-index="3">
+            <img src="asserts/images/Balcony.jpeg" alt="..." loading="lazy" />
+            <div class="slider__caption">
+              <h3>Balcony Area</h3>
+              <p>...</p>
+            </div>
+          </div>
+       
+      </div>
+
+      <!-- Controls -->
+      <button class="slider__btn slider__btn--prev" id="sliderPrev" aria-label="Previous slide">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <button class="slider__btn slider__btn--next" id="sliderNext" aria-label="Next slide">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+
+      <!-- Dots -->
+      <div class="slider__dots" id="sliderDots" role="tablist"></div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       APARTMENT FEATURES — Infinite carousel
+  ============================================= -->
+  <section class="features" id="features">
+    <div class="container features__header reveal">
+      <span class="section-label">What's Included</span>
+      <h2>Apartment <em>Features</em></h2>
+    </div>
+    <!--
+      TO ADD MORE FEATURES: duplicate a .features__item inside .features__list
+      The infinite scroll clones the list automatically via JS
+    -->
+    <div class="features__carousel" id="featuresCarousel">
+      <div class="features__list" id="featuresList">
+        <div class="features__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12.55a11 11 0 0114.08 0M1.42 9a16 16 0 0121.16 0M8.53 16.11a6 6 0 016.95 0M12 20h.01"/></svg>
+          <span>Free WiFi</span>
+        </div>
+        <div class="features__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="15" rx="2"/><polyline points="17 2 12 7 7 2"/></svg>
+          <span>Smart TV</span>
+        </div>
+        <div class="features__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.5 2A2.5 2.5 0 0112 4.5v15a2.5 2.5 0 01-4.96-.46 2.5 2.5 0 01-1.07-4.6A3 3 0 014.46 9.5 3.5 3.5 0 019.5 2zM14.5 2A3.5 3.5 0 0119.54 9.5a3 3 0 01-.97 5.4 2.5 2.5 0 01-1.07 4.6A2.5 2.5 0 0115 19.5v-15A2.5 2.5 0 0114.5 2z"/></svg>
+          <span>Air Conditioning</span>
+        </div>
+        <div class="features__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="12" cy="12" r="4"/><path d="M12 8v1M12 15v1M8 12h1M15 12h1"/></svg>
+          <span>Washing Machine</span>
+        </div>
+        <div class="features__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          <span>Private Balcony</span>
+        </div>
+        <div class="features__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2zM2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+          <span>Fridge &amp; Stove</span>
+        </div>
+        <div class="features__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          <span>Microwave</span>
+        </div>
+        <div class="features__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8l4 4-4 4"/></svg>
+          <span>Shuttle Access</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       LIFESTYLE AMENITIES
+  ============================================= -->
+  <section class="amenities" id="amenities">
+    <div class="container">
+      <div class="amenities__header reveal">
+        <span class="section-label">Building Perks</span>
+        <h2>Lifestyle <em>Amenities</em></h2>
+        <p>Curated experiences for your comfortable stay</p>
+      </div>
+      <div class="amenities__grid reveal">
+        <!-- TO UPDATE: change the background-image inline style or use CSS classes -->
+        <div class="amenities__card amenities__card--large" style="--card-bg: url('asserts/images/swimmingPool.jpg')">
+          <div class="amenities__card-body">
+            <h3>Communal Swimming Pool</h3>
+            <p>Relax and refresh in our crystal-clear waters.</p>
+          </div>
+        </div>
+        <div class="amenities__card" style="--card-bg: url('asserts/images/ChickenBBQ.jpg')">
+          <div class="amenities__card-body">
+            <h3>Braai Area</h3>
+            <p>Traditional outdoor cooking in a modern setting.</p>
+          </div>
+        </div>
+        <div class="amenities__card" style="--card-bg: url('asserts/images/parking.jpg')">
+          <div class="amenities__card-body">
+            <h3>Secure Parking</h3>
+            <p>Your peace of mind is our priority.</p>
+          </div>
+        </div>
+        <div class="amenities__card" style="--card-bg: url('asserts/images/CleaningService.jpg')">
+          <div class="amenities__card-body">
+            <h3>Cleaning Services</h3>
+            <p>Impeccable standards maintained throughout your stay.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       PRICING SECTION
+  ============================================= -->
+  <section class="pricing" id="pricing">
+    <div class="pricing__bg-pattern"></div>
+    <div class="container pricing__inner reveal">
+      <span class="section-label pricing__label">Exclusive Rate</span>
+      <div class="pricing__amount">
+        <span class="pricing__currency">P</span>
+        <span class="pricing__number">750</span>
+        <span class="pricing__per">/ night</span>
+      </div>
+      <p class="pricing__note">Special rates available for long-term stays</p>
+      <div class="pricing__ctas">
+        <a href="https://wa.me/26771794671" class="btn btn--whatsapp" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          Book via WhatsApp
+        </a>
+        <a href="tel:+26771794671" class="btn btn--outline-white">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 13.54 19.79 19.79 0 01.0 4.91a2 2 0 012-2.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 10.09a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Call Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       LOCATION + CONTACT FORM
+  ============================================= -->
+  <section class="contact" id="contact">
+    <div class="container contact__inner">
+      <!-- Left: info -->
+      <div class="contact__info reveal">
+        <span class="section-label">Find Us</span>
+        <h2>Inquiry &amp;<br /><em>Reservation</em></h2>
+        <p>Ready to experience Blu Giraffe Sarona? Fill out the form or reach out through our contact channels.</p>
+
+        <div class="contact__details">
+          <div class="contact__detail-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <strong>Address</strong>
+              <span>Habitat Kappa, Sarona City Mall,<br />Tsholofelo East</span>
+            </div>
+          </div>
+          <div class="contact__detail-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 13.54 19.79 19.79 0 01.0 4.91a2 2 0 012-2.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 10.09a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <div>
+              <strong>Direct Contact</strong>
+              <span>+267 71 794 671<br />+267 76 407 439</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__social-btns">
+          <a href="https://wa.me/26771794671" class="btn btn--whatsapp" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            WhatsApp Us
+          </a>
+          <a href="tel:+26771794671" class="btn btn--navy">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 13.54 19.79 19.79 0 01.0 4.91a2 2 0 012-2.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 10.09a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Call to Book
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: form (UI only — no backend) -->
+      <div class="contact__form-wrap reveal">
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Your Name" autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@email.com" autocomplete="email" />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="checkIn">Check In</label>
+              <input type="date" id="checkIn" name="checkIn" />
+            </div>
+            <div class="form-group">
+              <label for="checkOut">Check Out</label>
+              <input type="date" id="checkOut" name="checkOut" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Special requests or inquiries…"></textarea>
+          </div>
+          <button type="submit" class="btn btn--submit">Send Inquiry</button>
+          <p class="form-note" id="formNote" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       FOOTER
+  ============================================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="hero__logo-wrap">
+  <img src="asserts/images/GoabaHouseLogo (1).svg" alt="Blu Giraffe Logo" class="hero__giraffe-icon">
+
+  <div class="hero__brand">
+    <span class="hero__brand-main">Blu Giraffe</span>
+    <span class="hero__brand-sub">SARONA</span>
+  </div>
+</div>
+        <div>
+          <p class="footer__name">Blu Giraffe Sarona</p>
+          <p class="footer__copy">© 2025 Blu Giraffe Sarona. All rights reserved.</p>
+        </div>
+      </div>
+      <nav class="footer__nav">
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- =============================================
+       MOBILE STICKY BOOK NOW BUTTON
+  ============================================= -->
+  <div class="mobile-cta" id="mobileCta">
+    <a href="https://wa.me/26771794671" class="mobile-cta__btn" target="_blank" rel="noopener">
+      Book Now — P750/night
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
