@@ -594,6 +594,7 @@ textarea, input, select { font-family: inherit; }
 .features__carousel {
   overflow: hidden;
   position: relative;
+  display: flex;
   /* Fade edges */
   mask-image: linear-gradient(
     to right,
@@ -611,13 +612,13 @@ textarea, input, select { font-family: inherit; }
   display: flex;
   gap: 1.5rem;
   width: max-content;
-  animation: infiniteScroll 28s linear infinite;
+  animation: infiniteScroll 10s linear infinite;
 }
 .features__carousel:hover .features__list { animation-play-state: paused; }
 
 @keyframes infiniteScroll {
   from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
+  to   { transform: translateX(-100%); }
 }
 
 /* Feature card */
